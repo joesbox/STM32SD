@@ -167,6 +167,7 @@ typedef struct {
 } SD_PinName_t;
 
 extern SD_PinName_t SD_PinNames;
+extern SD_HandleTypeDef uSdHandle;
 
 /* SD Exported Functions */
 uint8_t BSP_SD_Init(void);
